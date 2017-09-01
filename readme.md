@@ -1,30 +1,23 @@
 #### Run following command, it will generate package.json
---
     `npm init`
   
 #### Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
 
 #### Run following command, it will generate tsconfig.json
---
     `tsc --init`
 
 #### Important Attributes ares :
---
     `target`
---
     `modules`
---
     `sourceMap`
---
     `outDir`
---
     `rootDir`
 
 #### Create source folder (src) for typescript, and bin folder for compiled typescript files with source maps.
 
 
 #### Next create task configuration, inbuilt feature of VSCode. (This is one of the way to compile typescript program.)
-Tasks -> Configure Default Build Task
+    `Tasks -> Configure Default Build Task`
 
 #### To Run the build task, with watch mode on. 
 Option 1, Run at the terminal following command,
