@@ -1,10 +1,10 @@
 ### Run following command, it will generate package.json
-#### npm init
+#### >> npm init
 
 ### Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
 
 ### Run following command, it will generate tsconfig.json
-#### tsc --init
+#### >> tsc --init
 
 #### Important Attributes ares :
 ##### target
@@ -20,8 +20,8 @@
 #### Tasks -> Configure Default Build Task
 
 
->> To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
-    {
+### To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
+    ```json{
         "type": "node",
         "request": "launch",
         "sourceMaps": true,
@@ -30,7 +30,7 @@
         "outFiles": [
             "${workspaceRoot}/bin/**/*.js"
         ]
-    }
+    }```
 
 
 >> For debug refernce, 
