@@ -1,5 +1,5 @@
-###H3 Run following command, it will generate package.json
-#####H5 npm init
+### H3 Run following command, it will generate package.json
+##### H5 npm init
 
 >> Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
 
