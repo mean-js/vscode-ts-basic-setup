@@ -1,4 +1,4 @@
-#### Run following command, it will generate package.json
+..1 #### Run following command, it will generate package.json
 >> npm init
 
 #### Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
