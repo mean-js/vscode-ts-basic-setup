@@ -1,23 +1,23 @@
-### H3 Run following command, it will generate package.json
-##### H5 npm init
+### Run following command, it will generate package.json
+#### npm init
 
->> Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
+### Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
 
->> Run following command, it will generate tsconfig.json
-    >> tsc --init
+### Run following command, it will generate tsconfig.json
+#### tsc --init
 
-    >> Important Attributes ares :
-        >> target
-        >> modules
-        >> sourceMap
-        >> outDir
-        >> rootDir
+#### Important Attributes ares :
+##### target
+##### modules
+##### sourceMap
+##### outDir
+##### rootDir
 
->> Create source folder (src) for typescript, and bin folder for compiled typescript files with source maps.
+### Create source folder (src) for typescript, and bin folder for compiled typescript files with source maps.
 
 
->> Next create task configuration, inbuilt feature of VSCode. (This is one of the way to compile typescript program.)
-    >> Tasks -> Configure Default Build Task
+### Next create task configuration, inbuilt feature of VSCode. (This is one of the way to compile typescript program.)
+#### Tasks -> Configure Default Build Task
 
 
 >> To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
