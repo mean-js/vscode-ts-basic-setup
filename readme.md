@@ -21,11 +21,14 @@ Tasks -> Configure Default Build Task
 
 #### To Run the build task, with watch mode on. 
 Option 1, Run at the terminal following command,
+--
     `tsc -w  -p "${project_folder}/tsconfig.json"`
 
-Option 2, Add follwing in package.json under scripts tag, 
+Option 2, Add follwing in package.json under scripts tag,
+-- 
     `"dev": "tsc -w -p tsconfig.json"`
 After adding above script, run following at terminal, 
+--
     `npm run dev`
 
 #### To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
