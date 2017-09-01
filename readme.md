@@ -19,6 +19,8 @@ rootDir
 #### Next create task configuration, inbuilt feature of VSCode. (This is one of the way to compile typescript program.)
 Tasks -> Configure Default Build Task
 
+#### To Run the build task, with watch mode on. Add following to the tasks.json,
+"args": ["-w", "-p", "."],
 
 #### To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
     {
