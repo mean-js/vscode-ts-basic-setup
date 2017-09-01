@@ -31,4 +31,7 @@
             "${workspaceRoot}/bin/**/*.js"
         ]
     }
-    
+
+
+>> For debug refernce, 
+    https://stackoverflow.com/questions/31169259/how-to-debug-typescript-files-in-visual-studio-code
