@@ -21,7 +21,7 @@
 
 
 ### To debug typescript program, use create configuration. this will create launch.json. Following is for reference,
-    ```json{
+    `{
         "type": "node",
         "request": "launch",
         "sourceMaps": true,
@@ -30,7 +30,7 @@
         "outFiles": [
             "${workspaceRoot}/bin/**/*.js"
         ]
-    }```
+    }`
 
 
 >> For debug refernce, 
