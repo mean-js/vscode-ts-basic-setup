@@ -1,17 +1,24 @@
 #### Run following command, it will generate package.json
->> npm init
+--
+    `npm init`
   
 #### Create file .gitignore, and add node_modules in the file, to avoid versioning of node_modules folder.
 
 #### Run following command, it will generate tsconfig.json
->> tsc --init
+--
+    `tsc --init`
 
 #### Important Attributes ares :
-target
-modules
-sourceMap
-outDir
-rootDir
+--
+    `target`
+--
+    `modules`
+--
+    `sourceMap`
+--
+    `outDir`
+--
+    `rootDir`
 
 #### Create source folder (src) for typescript, and bin folder for compiled typescript files with source maps.
 

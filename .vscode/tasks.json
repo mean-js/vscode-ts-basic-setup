@@ -4,7 +4,6 @@
     "version": "2.0.0",
     "tasks": [{
         "type": "typescript",
-        "args": ["-w", "-p", "."],
         "tsconfig": "tsconfig.json",
         "problemMatcher": [
             "$tsc"
